@@ -2,7 +2,7 @@ public class MagicStrings {
 	public MagicStrings() {
 		// TODO Auto-generated constructor stub
 	}
-
+// Return word length 
 	public int getWordLength(String words, int spaceLocation){
 		int nextSpaceIndex=0;
 		for(int y = spaceLocation; y < words.length(); y++) {
@@ -15,7 +15,7 @@ public class MagicStrings {
 		}
 		return words.substring(spaceLocation, nextSpaceIndex).length();
 	}
-
+//Return place of the world in sentence
 	public int getPlaceOfWord(String words, int targetWordNumber) {
 		int numberOfWords = 0;
 		if (targetWordNumber==1){

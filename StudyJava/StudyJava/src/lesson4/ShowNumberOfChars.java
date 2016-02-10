@@ -39,7 +39,7 @@ public class ShowNumberOfChars {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String MyString = "_ wg t _7 & hfhfhfg     hhh ___ rtrtrtr  ___--___"; // Example
+		String MyString = " _1 _"; // Example
 		getNumberOfChars(MyString);
 		// System.out.println("String length: " + StringLenght);
 	}
